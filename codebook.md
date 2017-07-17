@@ -17,8 +17,8 @@
     Laying
     
  #### Note to Reviewer: 
- ##### In my final write out of the tidy data set I have suppressed the activity type (labels as for each row we still have the activitiyId)  
- ##### See last line in the code: write.table(avgActSubj, f, row.names = FALSE) 
+ ##### In my final write out of the tidy data set I have suppressed the row names   
+ ##### See last line in the code: write.table(tidyData, f, row.names = FALSE) 
  ### Measurement Means:
  #### All variables are the mean of a measurement for each activity and subject. This is stressed by use of the initial Mean in the variable name.
 ##### Following are Time Domain body acceleration means along X, Y and Z axes
